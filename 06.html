@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM_JS. Считываем информацию из DOM</title>
+</head>
+<body>
+<div class="menu-container">
+  <nav>
+  <ul>
+   <li><a href="./01.html" target="_self"><h3>Главная</b></h3></a></li>
+    <li><a href="#top"><h3>О нас</h3></a></li>
+    <li><a href="./02.html" target="_self"><h3>Ассортимент</h3></a></li>
+    <li><a href="https://рижский-рынок.рф" target="_self"><h3>Сайт партнера</h3></a></li>
+    <li><a href="./03.html" target="_self"><h3>Заявка для заполнения</h3></a></li>
+    <li><a href="./06.html" target="_self"><h3><b>Считываем информацию из DOM</b></h3></a></li>
+    <li><a href="./05.html" target="_self"><h3>Паспорт организации</h3></a></li>
+    <li><a href="./04.html" target="_self"><h3>Алгоритмическая задача</h3></a></li>
+  </ul>
+</nav>
+</div>
+<style>
+  nav ul {
+  display: flex;
+  list-style: none;
+  margin: 10;
+  padding: 30;
+}
+
+nav li {
+  margin-right: 35px;
+  
+}
+
+nav a {
+  color: black;              
+  text-decoration: none;     
+  border: 1px solid black;  
+  padding: 10px 30px;        
+  border-radius: 40px;       
+  display: flex;               
+  align-items: center;         
+  justify-content: center;     
+  height: 60px; 
+  text-align: center;        
+  line-height: 1.2;
+}
+</style>
+<a id="head"> 
+   <h1 align="center">Считываем информацию из DOM</h1>
+   <style>
+    #head h1 {
+      color: black;
+      font-size: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+   </style>
+   <style>
+
+        #photo {
+            position: relative;
+            top: -370px;
+            left: 30px;
+            z-index: 2;
+        }
+
+        #place {
+            position: relative;
+            top: 80px;
+            left: 90px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #date {
+            position: relative;
+            top: 125px;
+            left: 90px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #code {
+            position: relative;
+            top: 150px;
+            left: 275px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #surname {
+            position: relative;
+            top: 280px;
+            left: 180px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #name {
+           position: relative;
+            top: 305px;
+            left: 175px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #lastname {
+            position: relative;
+            top: 307px;
+            left: 180px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #sex {
+            position: relative;
+            top: 310px;
+            left: 160px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #birthday {
+            position: relative;
+            top: 290px;
+            left: 240px;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        #city {
+            position: relative;
+            top: 295px;
+            left: 180px;
+            font-size: 16px;
+            z-index: 2;
+        } 
+        #passport {
+            position: relative;
+            top: -140px;
+            left: 10px;
+            z-index: 1;
+        }
+        #button {
+           position: relative;
+            top: -650px;
+            left: 110px;
+            font-size: 16px;
+            z-index: 1; 
+        }
+        #file {
+           position: relative;
+            top: -800px;
+            left: 450px;
+            font-size: 16px;
+            z-index: 1; 
+        } 
+    </style>
+</head>
+
+
+
+
+    <div id="place">ГУ МВД РОССИИ ПО Г. МОСКВЕ</div>
+<div id="date">05.05.2018</div>
+<div id="code">123-456</div>
+<div id="surname">Гёлецян</div>
+<div id="name">Манэ</div>
+<div id="lastname">Артуровна</div>
+<div id="sex">жен.</div>
+<div id="birthday">07.01.2006</div>
+<div id="city">г. Москва</div>
+<div id="passport"><img src="/Users/macbook/Downloads/паспорт.jpeg" length="400px" width="400px"></div>
+    <div id="photo"> <img src="/Users/macbook/Downloads/фотка для паспорта.jpg" length="105px" width="105px"/></div>
+     <div id="file"><img src="/Users/macbook/Pictures/Photos Library.photoslibrary/originals/1/1B679B4B-190B-417F-AD79-32BD95FC64B2.jpeg" length="500px" width="500px"></div>
+<button id="button">Изменить на латиницу</button>
+<style>
+  body {
+    background-image: url(/Users/macbook/Downloads/textur-gas-kvas-com-he1c-p-tekstura-fon-svetlii-17.jpg);
+  }
+</style>
+<style>
+  .menu-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding-left: 30px;  
+  padding-right: 30px;
+}
+</style>
+</body>
+<script src="./01.js"></script>
+</html>
+</body>
