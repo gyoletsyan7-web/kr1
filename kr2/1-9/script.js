@@ -20,6 +20,7 @@ function renderFlowers() {
                 <p>${flower.price}</p>
                 <p class="card-text" >Заказать <input class="w-25" type="number" name="amount" value="0"></p
             </div>
+            console.log(card )
         </div>`;
         container.innerHTML += card;
     });
