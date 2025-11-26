@@ -1,5 +1,5 @@
 const flowers = [
-    { name: "Розы", price: "350 руб./1 шт.", img: "../images/розы.jpeg" },
+    { name: "Розы", price: "350 руб./1 шт.", img: "../images/roses.jpeg" },
     { name: "Пионовидные розы", price: "650 руб./1 шт.", img: "../images/пионовидные розы.jpg" },
     { name: "Пионы", price: "850 руб./1 шт.", img: "../images/пионы.JPG" },
     { name: "Хризантемы", price: "450 руб./1 шт.", img: "../images/хризантемы.jpg" },
