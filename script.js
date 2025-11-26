@@ -4,7 +4,7 @@ const flowers = [
     { name: "Пионы", price: "850 руб./1 шт.", img: "./images/пионы.JPG" },
     { name: "Хризантемы", price: "450 руб./1 шт.", img: "./images/хризантемы.jpg" },
     { name: "Тюльпаны", price: "550 руб./1 шт.", img:"./images/тюльпан.jpg.webp" },
-    { name: "Готовые букеты", price: "5000 руб./1 шт.", img: "/Users/macbook/Downloads/готовый букет.jpg" }
+    { name: "Готовые букеты", price: "5000 руб./1 шт.", img: "./images/готовый букет.jpg" }
 ];
 
 function renderFlowers() {
