@@ -1,10 +1,10 @@
 const flowers = [
-    { name: "Розы", price: "350 руб./1 шт.", img = "./images/roses.jpeg" },
-    { name: "Пионовидные розы", price: "650 руб./1 шт.", img = "./images/пионовидные розы.jpg" },
-    { name: "Пионы", price: "850 руб./1 шт.", img = "./images/пионы.JPG" },
-    { name: "Хризантемы", price: "450 руб./1 шт.", img= "./images/хризантемы.jpg" },
-    { name: "Тюльпаны", price: "550 руб./1 шт.", img ="./images/тюльпан.jpg.webp" },
-    { name: "Готовые букеты", price: "5000 руб./1 шт.", img = "./images/готовый букет.jpg" }
+    { name: "Розы", price: "350 руб./1 шт.", img: "./images/roses.jpeg" },
+    { name: "Пионовидные розы", price: "650 руб./1 шт.", img: "/Users/macbook/Downloads/пионовидные розы.jpg" },
+    { name: "Пионы", price: "850 руб./1 шт.", img: "/Users/macbook/Downloads/пионы.JPG" },
+    { name: "Хризантемы", price: "450 руб./1 шт.", img: "/Users/macbook/Downloads/хризантемы.jpg" },
+    { name: "Тюльпаны", price: "550 руб./1 шт.", img:"/Users/macbook/Downloads/тюльпан.jpg.webp" },
+    { name: "Готовые букеты", price: "5000 руб./1 шт.", img: "/Users/macbook/Downloads/готовый букет.jpg" }
 ];
 
 function renderFlowers() {
@@ -20,7 +20,6 @@ function renderFlowers() {
                 <p>${flower.price}</p>
                 <p class="card-text" >Заказать <input class="w-25" type="number" name="amount" value="0"></p
             </div>
-            console.log(card )
         </div>`;
         container.innerHTML += card;
     });
