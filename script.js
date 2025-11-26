@@ -1,10 +1,10 @@
 const flowers = [
-    { name: "Розы", price: "350 руб./1 шт.", img: "./images/розы.jpeg" },
-    { name: "Пионовидные розы", price: "650 руб./1 шт.", img: "./images/пионовидные розы.jpg" },
-    { name: "Пионы", price: "850 руб./1 шт.", img: "./images/пионы.JPG" },
-    { name: "Хризантемы", price: "450 руб./1 шт.", img: "./images/хризантемы.jpg" },
-    { name: "Тюльпаны", price: "550 руб./1 шт.", img:"./images/тюльпан.jpg.webp" },
-    { name: "Готовые букеты", price: "5000 руб./1 шт.", img: "./images/готовый букет.jpg" }
+    { name: "Розы", price: "350 руб./1 шт.", img = "./images/розы.jpeg" },
+    { name: "Пионовидные розы", price: "650 руб./1 шт.", img = "./images/пионовидные розы.jpg" },
+    { name: "Пионы", price: "850 руб./1 шт.", img = "./images/пионы.JPG" },
+    { name: "Хризантемы", price: "450 руб./1 шт.", img= "./images/хризантемы.jpg" },
+    { name: "Тюльпаны", price: "550 руб./1 шт.", img ="./images/тюльпан.jpg.webp" },
+    { name: "Готовые букеты", price: "5000 руб./1 шт.", img = "./images/готовый букет.jpg" }
 ];
 
 function renderFlowers() {
